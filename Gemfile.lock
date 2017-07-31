@@ -1,0 +1,33 @@
+GIT
+  remote: https://github.com/appliedblockchain/ruby-eth
+  revision: 22cbcc167b7e722c8ad88305baad4fc7d4a0f29f
+  specs:
+    eth (0.4.4)
+      digest-sha3
+      ffi (~> 1.0)
+      money-tree (~> 0.9)
+      rlp (~> 0.7.3)
+
+GIT
+  remote: https://github.com/steakknife/digest-sha3-ruby.git
+  revision: 8f9581acae2cb03a531bf3d9c8c2c2a8d761ea71
+  specs:
+    digest-sha3 (2.0.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ffi (1.9.18)
+    money-tree (0.9.0)
+      ffi
+    rlp (0.7.3)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  digest-sha3!
+  eth!
+
+BUNDLED WITH
+   1.15.1
